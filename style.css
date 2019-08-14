@@ -1,3 +1,16 @@
-header{background-image: url(https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/56595384_10216325120674088_3080451029746057216_n.jpg?_nc_cat=101&_nc_oc=AQmdCzmuUzK_QH7HWFxVFquTQkk56YHiksoFm3BhGPdjSci2zyPeGqcWgBmocndIdCdDx0ro4kncdz7JTpf_1eS9&_nc_ht=scontent-cdg2-1.xx&oh=60d260deaee589f31b92d33f63356d98&oe=5DE5ECE2);height:400px;background-repeat:no-repeat;background-size:cover}
-h1{font-family: 'Aclonica', sans-serif;font-size: 30px}
+header{background-image: url(https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/56595384_10216325120674088_3080451029746057216_n.jpg?_nc_cat=101&_nc_oc=AQmdCzmuUzK_QH7HWFxVFquTQkk56YHiksoFm3BhGPdjSci2zyPeGqcWgBmocndIdCdDx0ro4kncdz7JTpf_1eS9&_nc_ht=scontent-cdg2-1.xx&oh=60d260deaee589f31b92d33f63356d98&oe=5DE5ECE2);
+       background-repeat:no-repeat;
+       background-size: cover;
+       height: 400px;
+       background-position: center;
+       background-clip: border-box;
+       border: 4mm ridge rgba(13, 98, 168, 0.6)}
 
+h1{font-family: 'Aclonica', sans-serif;
+   font-size: 80px;
+   text-align: center}
+
+header img{display: block;
+           margin-left: auto;
+           margin-right: auto;
+           height : 200px}
