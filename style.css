@@ -11,7 +11,7 @@ h1{font-family: 'Dancing Script', sans-serif;
    text-align: center}
 
 header nav :link{color:white}
-header nav :hover{color:rgb(38, 0, 255)}
+header nav :hover{color:rgb(37, 211, 241)}
 header nav{line-height:53px;
            text-indent : 10px;
            float: left;
@@ -25,6 +25,10 @@ header img{display: block;
            margin-left: 42%;
            height : 200px}
 
-h2{font-family: 'Architects Daughter', sans-serif}
+div{background-color: rgb(236, 223, 223)}
 
-h3{font-family: 'Crafty Girls', sans-serif}
+h2{font-family: 'Architects Daughter', sans-serif;
+   background-color: rgb(220, 203, 231)}
+
+h3{font-family: 'Crafty Girls', sans-serif;
+   background-color: rgb(208, 226, 233)}
