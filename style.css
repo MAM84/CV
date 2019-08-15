@@ -28,7 +28,30 @@ header img{display: block;
 div{background-color: rgb(236, 223, 223)}
 
 h2{font-family: 'Architects Daughter', sans-serif;
-   background-color: rgb(220, 203, 231)}
+   background-color: rgb(220, 203, 231);
+   font-size: 25px}
 
 h3{font-family: 'Crafty Girls', sans-serif;
-   background-color: rgb(208, 226, 233)}
+   background-color: rgb(208, 226, 233);
+   font-size: 18px;
+   display:block;
+   float:left;
+   width:50%}
+
+.block{clear:left;
+      display:block;
+      float:left;
+      width:50%;
+      list-style-type:none}
+h3+ul+ul{list-style-type:none}
+.spe:before {content: "\A4 \ "}
+
+h3~img{height : 50px;
+      display:block;
+      float:left}
+
+
+
+hr{clear:left}
+
+hr{height:10px; color: rgba(13, 98, 168, 0.6); background: rgba(13, 98, 168, 0.6); border-top:2px blue dashed}
