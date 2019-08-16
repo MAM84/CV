@@ -14,59 +14,139 @@ header nav :link{color:white}
 header nav :hover{color:rgb(37, 211, 241)}
 header nav{line-height:53px;
            text-indent : 10px;
-           float: left;
+           position: absolute;
+           top:175px;
            font-family: 'Dancing Script', sans-serif;
            font-size: 30px}
 header nav li {color:white;
                margin-left: 50px}
 
-header img{display: block;
-           margin-right: 58%;
-           margin-left: 42%;
+.headerimg1{position: absolute;
+           top:200px;
+           left: 42%;
            height : 200px}
 
-div{background-color: rgb(236, 223, 223)}
+.headerimg2{height : 60px;
+            position: absolute;
+            top:300px;
+            left: 755px}
+
+.divcorps{background-color: rgb(236, 223, 223)}
+
+h2 img{height : 30px;
+       margin-top: 10px}
 
 h2{font-family: 'Architects Daughter', sans-serif;
    background-color: rgb(220, 203, 231);
-   font-size: 25px}
+   font-size: 25px;
+   text-decoration: dotted underline}
 
 .h3floatleft{font-family: 'Crafty Girls', sans-serif;
-           background-color: rgb(208, 226, 233);
-           font-size: 18px;
-           display:block;
-           float:left;
-           width:50%}
+             background-color: rgb(208, 226, 233);
+             font-size: 18px;
+             display:block;
+             float:left;
+             width:50%}
 
 .ulblockleft{clear:left;
-           display:block;
-           float:left;
-           width:50%;
-           list-style-type:none}
+             display:block;
+             float:left;
+             width:50%;
+             list-style-type:none}
 
 .spe:before {content: "\A4 \ "}
 
 .imgleft{height : 100px;
-       display:block;
-       float:left}
+         display:block;
+         float:left;
+         transform: rotate(0.1turn);}
 
 .h3floatright{font-family: 'Crafty Girls', sans-serif;
-            background-color: rgb(208, 226, 233);
-            font-size: 18px;
-            display:block;
-            float:right;
-            width:50%}
+              background-color: rgb(208, 226, 233);
+              font-size: 18px;
+              display:block;
+              float:right;
+              width:50%}
 
 .ulblockright{clear:right;
-            display:block;
-            float:right;
-            width:50%;
-            list-style-type:none}
+              display:block;
+              float:right;
+              width:50%;
+              list-style-type:none;
+              margin-right: -40px}
 
 .imgright{height : 100px;
-         display:block;
-         float:right}
+          display:block;
+          float:right;
+          transform: rotate(-0.1turn);
+          margin-right: 60px}
 
-hr{clear:both}
+.clear{clear:both;
+       font-style: italic;
+       font-size: 13px;
+       color: black}
+
+.vidéo{position: absolute;
+       top: 875px;
+       right: 50px;
+       width: 200px}
 
 hr{height:10px; color: rgba(13, 98, 168, 0.6); background: rgba(13, 98, 168, 0.6); border-top:2px blue dashed}
+
+h3{font-family: 'Crafty Girls', sans-serif;
+   background-color: rgb(208, 226, 233);
+   font-size: 18px}
+   
+h3 img{height : 30px;
+       margin-top: 10px}
+
+.h3partie2{margin-left: 60px;
+           margin-right: 800px}
+
+thead{background-color: black;
+      color: white;
+      text-align:center}
+
+table,td{border: 1px solid black}
+
+.tdpetittable1{width :150px;
+               text-align:center}
+
+.tdgrandtable1{text-align:justify}
+
+table :link{color:black}
+
+tfoot{color: grey;
+      font-style: italic}
+
+.table2{margin-left: auto;
+        margin-right: auto}
+
+.tdtable2{width :275px;
+          height: 150px}
+
+.tdtable2bis{width :275px;
+             height: 150px;
+             text-align: center}
+
+.textemotiv{font-family: 'The Girl Next Door', sans-serif;
+            font-weight: bold;
+            font-size: 17px;
+            text-align:justify;
+            margin-right: 75px;
+            margin-left: 75px}
+
+footer{font-style: italic;
+       font-size: 11px}
+
+footer img{height : 30px}
+
+form{background-color: rgb(230, 231, 236)}
+
+legend{font-weight:bold}
+
+.bold{font-weight:bold}
+
+input[type="submit"]{font-weight:bold;
+                     color:white;
+                     background:black}
