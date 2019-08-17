@@ -104,11 +104,15 @@ h3 img{height : 30px;
 .h3partie2{margin-left: 60px;
            margin-right: 800px}
 
-thead{background-color: black;
+thead{background-color:rgb(16, 102, 117);
       color: white;
       text-align:center}
 
-table,td{border: 1px solid black}
+table,th,.tdfoot{border-collapse: separate;
+      border: 1px solid rgb(5, 145, 170)}
+
+td{border-collapse: separate;
+   border: 1px dashed rgb(49, 152, 170)}
 
 .tdpetittable1{width :150px;
                text-align:center}
